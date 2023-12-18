@@ -111,6 +111,8 @@ int main() {
     int numProdutos = 0;
     struct Produto produtos[MAX_PRODUTOS];
 
+    setlocale(LC_ALL, "portugues");
+    
     // Login
     printf("\n|======| Market 1.0 |======|\n");
     printf("\nPara iniciar efetue o loguin\n");
